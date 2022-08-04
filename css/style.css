@@ -1,11 +1,56 @@
-.container {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.navbar {}
+.container {
+    width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.navbar {
+    background: blue;
+    height: 10vh;
+
+}
+
+.navbar>ul {
+    width: auto;
+    align-self: center;
+
+}
+
+.navbar>ul>li {
+    list-style: none;
+    display: inline-block;
+
+
+}
+
+.navbar>ul>li:first-child {
+    width: 70vw;
+}
 
 .menu {}
 
 [class^=section] {}
+
+.musashi {
+    margin-top: 3%;
+    display: block;
+    border: black solid 2px;
+    margin-bottom: 10%;
+}
+
+#texto {
+    padding-top: 1%;
+    font-family: fantasy;
+}
+
+#bioec {
+    padding-top: 10%;
+    font-family: fantasy;
+}
