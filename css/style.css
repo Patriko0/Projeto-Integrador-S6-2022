@@ -13,26 +13,27 @@
 
 .navbar {
     background: blue;
-    height: 10vh;
+    height: 8vh;
+    display: flex;
+
 
 }
 
 .navbar>ul {
     width: auto;
-    align-self: center;
-
+    display: flex;
+    margin: auto;
+    font-size: large;
 }
 
 .navbar>ul>li {
     list-style: none;
-    display: inline-block;
+
 
 
 }
 
-.navbar>ul>li:first-child {
-    width: 70vw;
-}
+.navbar>ul>li:first-child {}
 
 .menu {}
 
