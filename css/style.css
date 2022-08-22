@@ -1,23 +1,17 @@
-.musashi {
-    margin-top: 3%;
-    display: block;
-    border: black solid 2px;
-    margin-bottom: 10%;
-}
-
-#texto {
-    padding-top: 1%;
-    font-family: fantasy;
-}
-
-#bioec {
-    padding-top: 10%;
-    font-family: fantasy;
+.titul {
+    max-width: 25rem;
+    color: white;
 }
 
 @media (max-width: 620px) {
 
     .botoes {
         display: none;
+    }
+}
+
+@media (max-width: 280px) {
+    .titul {
+        font-size: 0.75em;
     }
 }
