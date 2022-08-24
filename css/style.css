@@ -3,10 +3,66 @@
     color: white;
 }
 
-@media (max-width: 627px) {
+.cardao {
+    display: none;
+    right: 0;
+    width: 18rem;
+    border-radius: 0;
+    border: none;
+    border-bottom-left-radius: 10px;
+}
+
+.div_menu {
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+.menu {
+    display: none;
+    border: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.menu>div {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    transition: all 300ms ease;
+}
+
+.menu>div:first-child {
+    transform: translateY(8px);
+}
+
+.menu>div:last-child {
+    transform: translateY(-8px);
+}
+
+.menu.ativo>div:first-child {
+    transform: rotate(45deg);
+}
+
+.menu.ativo>div:last-child {
+    transform: rotate(-45deg);
+}
+
+.menu.ativo>div:nth-child(2) {
+    background: transparent;
+
+}
+
+@media (max-width: 700px) {
 
     .botoes {
         display: none;
+    }
+
+    .menu {
+        display: block;
     }
 }
 
