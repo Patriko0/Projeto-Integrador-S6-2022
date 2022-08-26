@@ -1,0 +1,3 @@
+Vermelho: bf1e2d
+Verde: 056839
+Amarelo: ffea00

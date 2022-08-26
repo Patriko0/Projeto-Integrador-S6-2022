@@ -1,0 +1,8 @@
+
+Cores
+Vermelho: bf1e2d
+Verde: 056839
+Azul: 3de3ff
+
+Tamanho da imagem dos cards:
+1920x700

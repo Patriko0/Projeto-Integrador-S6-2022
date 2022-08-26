@@ -1,0 +1,76 @@
+.container{
+    padding: 35px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-abaixo{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.logoEsquerda {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.logoDireita {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color:#056839;
+}
+
+
+.subtitulo {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.descricao {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.card {
+    margin-bottom: 100px;
+}
+
+.divisor-um {
+    background-color: black;
+    width: 500px;
+    height: 1px;
+}
+
+.divisor-dois {
+    background-color: black;
+    width: 300px;
+    height: 1px;
+}
+
+.rodape {
+    padding: 15px;
+    background-color: #056839;
+    width: all;
+    height: 400px;
+    color:  white;
+}
+
+.bg {
+    background-color: #056839;
+}
+
+#imagem-turma {
+    margin: 20px;
+    border-color: white;
+    width: 500px;
+}
+
+.sobre{
+    font-family: 'Times New Roman', Times, serif;
+}
