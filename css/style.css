@@ -98,3 +98,24 @@
     display: block;
     font-size: 0.75em;
 }
+
+footer{
+    background-color: rgb(243, 243, 243);
+    height: 120px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: smaller;
+    color: black;
+}
+
+.tiltCard {
+    font-size:0.7cm;
+}
+
+a {
+    display: inline;
+}
+
+main {
+    background-image: url("../images/background2.jpg");
+}
