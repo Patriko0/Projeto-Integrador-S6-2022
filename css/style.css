@@ -120,8 +120,6 @@ main {
     background-image: url("../images/background2.jpg");
 }
 
-
-
 p {
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -131,4 +129,12 @@ p {
     margin-right: 0.3cm;
     color: white;
     margin-left: 0.3cm;
+}
+
+.background-um {
+    background-image: url(../images/background-teste.png);
+}
+
+.background-dois {
+    background-color: white;
 }
