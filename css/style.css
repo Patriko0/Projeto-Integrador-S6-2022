@@ -112,7 +112,7 @@ footer{
     font-size:0.7cm;
 }
 
-a {
+.white-link{
     color: white;
 }
 
@@ -131,10 +131,7 @@ p {
     margin-left: 0.3cm;
 }
 
-.background-um {
-    background-image: url(../images/background-teste.png);
-}
-
-.background-dois {
-    background-color: white;
+.esquerda {
+    margin-left: 0.5cm;
+    text-align: left;
 }
