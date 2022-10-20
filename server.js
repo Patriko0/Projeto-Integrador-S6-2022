@@ -1,11 +1,9 @@
-import path from "path";
+const path = require("path");
 
-import express from "express";
+const express = require("express");
 const app = express();
 
-import { rotas } from "./routes";
-
-app.use(rotas);
+const routes = require("./routes");
 
 app.use(
   express.urlencoded({
@@ -13,9 +11,14 @@ app.use(
   })
 );
 
-app.on("pronto", () => {
-  app.listen(3000, () => {
-    console.log("Servidor executando na porta 3000");
-    console.log("Acessar http://localhost:3000");
-  });
+app.use(express.static(path.resolve(__dirname, "public")));
+
+app.set("views", path.resolve(__dirname, "src", "views"));
+app.set("view engine", "ejs");
+
+app.use(routes);
+
+app.listen(3000, () => {
+  console.log("Servidor executando na porta 3000");
+  console.log("Acessar http://localhost:3000");
 });
