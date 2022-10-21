@@ -10,53 +10,8 @@
   </head>
 
   <body class="bg-light">
-    <nav class="navbar bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand d-flex flex-row text-truncate" href="/">
-          <img
-            src="assets/images/logo_if.png"
-            alt=""
-            width="30"
-            height="30"
-            class="d-inline-block align-text-top"
-          />
-          <p class="m-auto mx-4 text-wrap text-center titul">
-            Projeto integrador 2022
-          </p>
-        </a>
-        <div class="d-flex flex-row bd-highlight me-3 text-center">
-          <div class="btn-group botoes" role="group">
-            <a
-              href="/BioEconomia"
-              class="btn btn-success active"
-              style="font-size: 70%"
-            >
-              Bioeconomia e <br />
-              Empreendedorismo
-            </a>
-            <a href="/Violencia" class="btn btn-danger pt-2"> Violência </a>
-            <a href="/Saude" class="btn btn-info pt-2">Saúde</a>
-          </div>
-        </div>
-        <div class="d-flex flex-row bd-highlight me-3 text-center div_menu">
-          <button class="menu bg-primary" id="teste_btn">
-            <div></div>
-            <div></div>
-            <div></div>
-          </button>
-        </div>
-      </div>
-    </nav>
-
-    <div class="card text-center bg-primary cardao position-absolute">
-      <div class="card-body">
-        <a href="/BioEconomia" class="btn btn-success men">
-          Bioeconomia e Empreendedorismo
-        </a>
-        <a href="/Violencia" class="btn btn-danger men"> Violência </a>
-        <a href="/Saude" class="btn btn-info men">Saúde</a>
-      </div>
-    </div>
+    <%- include('includes/navbar') %> 
+    <%- include('includes/hamburgerButton') %> 
 
     <div class="container bg-light text-center mt-5">
       <h1>Bioeconomia</h1>
@@ -281,54 +236,7 @@
         Acesso em: 10 out. 2022. ‌
       </p>
     </div>
-
     <br /><br />
-
-    <footer
-      class="d-flex flex-wrap justify-content-between align-items-center my-0 border-top"
-    >
-      <div class="col-md-4 d-flex align-items-center mx-3">
-        <a
-          href="index.html"
-          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
-        >
-          <img
-            src="assets/images/logo-pi22.png"
-            alt="logo do projeto integrador"
-            height="100px"
-            width="100px"
-          />
-        </a>
-      </div>
-
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex me-5">
-        <p class="txtFooter">
-          Agradecimentos: Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Voluptatum nisi voluptatem cumque ab maxime perspiciatis
-
-          <br />
-          Créditos: Ícones
-          <a
-            href="https://www.flaticon.com/free-icons/circular-economy"
-            class="white-link"
-            >Bioeconomia</a
-          >
-          ,
-          <a
-            href="https://www.flaticon.com/free-icons/forbidden"
-            class="white-link"
-            >Violência</a
-          >
-          ,
-          <a
-            href="https://www.flaticon.com/free-icons/healthcare"
-            class="white-link"
-            >Saúde</a
-          >
-        </p>
-      </ul>
-    </footer>
-
-    
+    <%- include('includes/bottomBar') %> 
   </body>
 </html>
