@@ -137,3 +137,33 @@ p {
 .largura {
   width: 1349px;
 }
+
+.banner {
+  background-image: url(../../../public/assets/images/banner.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+.intro {
+  justify-content: center;
+}
+
+.font-banner {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.photo-banner {
+  width: 40px;
+  height: 40px;
+  display: inline;
+  float: right;
+  margin-right: 20px;
+}
+
+.ita-vermelho {
+  background-image: url(../../../public/assets/images/ita-vermelho.png);
+  background-repeat: no-repeat;
+  width: auto;
+}

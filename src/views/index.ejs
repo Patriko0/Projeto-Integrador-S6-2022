@@ -10,19 +10,12 @@
   </head>
 
   <body class="bg-light">
-    <%- include('includes/navbar') %> 
-    <%- include('includes/hamburgerButton') %> 
+    <%- include('includes/navbar') %> <%- include('includes/hamburgerButton') %>
 
-    <div class="container bg-light text-center mt-5">
-      <img
-        src="assets/images/logo-pi-black-itapipoca.png"
-        alt=""
-        height="260px"
-        width="260px"
-      />
-      <br />
-      <br />
-      <p>
+    <!-- Banner -->
+
+    <div class="banner d-flex flex-column py-5">
+      <p class="font-banner my-auto">
         Este site destina-se ao livre acesso dos itapipoquenses. É produto das
         pesquisas realizadas pelos estudantes do sexto semestre da turma de
         Informática de 2020.1. Foi construído na disciplina de Projeto
@@ -31,48 +24,32 @@
         reconhecimento do Instituto Federal e demonstrar a importância da
         divulgação científica para a comunidade local. Boa leitura.
       </p>
-      <br /><br />
-      <div class="section" id="section-1">
-        <div class="row">
-          <div class="col-5 MenImgDsk">
-            <img
-              src="assets/images/circular-economy.png"
-              alt=""
-              height="230px"
-              width="230px"
-            />
-          </div>
-          <div class="col">
-            <div class="row mentxt">
-              <h1 class="tiltCard">Bioeconomia</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Consequuntur quos beatae sit rerum id iusto debitis sed eos
-                voluptatum est, quasi dolor laudantium voluptas mollitia nihil,
-                necessitatibus veniam distinctio assumenda? Lorem ipsum, dolor
-                sit amet consectetur adipisicing elit. Soluta fugiat cum debitis
-                at, laudantium amet ipsam! Accusamus minima, quidem officiis
-                recusandae ut laudantium minus, vitae, voluptatem beatae quo hic
-                porro. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Repellendus doloremque illum libero voluptatum odio est. Error
-                cum non numquam sunt ad praesentium eligendi consequatur
-                dolorem! Doloribus tenetur optio sint quam?
-              </p>
-              <a href="/BioEconomia"
-                ><button type="button" class="btn btn-success">Acessar</button>
-              </a>
-            </div>
-            <br /><br />
-          </div>
-        </div>
+      <div>
+        <a href="https://www.instagram.com/tecinformatica_2020/">
+          <img src="assets/images/insta.png" alt="" class="photo-banner" />
+        </a>
+
+        <a href="mailto: informaticaifce6@gmail.com">
+          <img src="assets/images/email.png" alt="" class="photo-banner" />
+        </a>
       </div>
-      <br /><br /><br />
+    </div>
+
+    <div class="container bg-light text-center mt-5">
       <div class="sections mt-5">
         <div class="section" id="section-1">
           <div class="row">
+            <div class="col-5 MenImgDsk">
+              <img
+                src="assets/images/circular-economy.png"
+                alt=""
+                height="230px"
+                width="230px"
+              />
+            </div>
             <div class="col">
               <div class="row mentxt">
-                <h1 class="tiltCard">Violência</h1>
+                <h1 class="tiltCard">Bioeconomia</h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Consequuntur quos beatae sit rerum id iusto debitis sed eos
@@ -87,227 +64,247 @@
                   praesentium eligendi consequatur dolorem! Doloribus tenetur
                   optio sint quam?
                 </p>
-                <a href="/Violencia"
-                  ><button type="button" class="btn btn-danger">
+                <a href="/BioEconomia"
+                  ><button type="button" class="btn btn-success">
                     Acessar
-                  </button></a
-                >
+                  </button>
+                </a>
               </div>
-              <br /><br />
-            </div>
-            <div class="col-5 MenImgDsk">
-              <img
-                src="assets/images/stop-violence.png"
-                alt=""
-                height="230px"
-                width="230px"
-              />
             </div>
           </div>
-        </div>
-        <br /><br /><br />
 
-        <div class="sections mt-5">
-          <div class="section" id="section-1">
-            <div class="row">
-              <div class="col-5 MenImgDsk">
-                <img
-                  src="assets/images/heartbeat.png"
-                  alt=""
-                  height="230px"
-                  width="230px"
-                />
-              </div>
-              <div class="col">
-                <div class="row mentxt">
-                  <h1 class="tiltCard">Saúde</h1>
-                  <p>
-                    Informe-se sobre as orientações da OMS para interromper o
-                    comportamento sedentário em um texto guiado e ilustrado:
-                    <b>O que é saúde?</b> Como saber se sou saudável? O que é um
-                    estilo de vida sedentário? Por que não consigo permanecer
-                    praticando um exercício por muito tempo?
-                    <b>Como interromper o comportamento sedentário?</b>
-                  </p>
-                  <a href="/Saude"
-                    ><button type="button" class="btn btn-info">
-                      Acessar
-                    </button></a
-                  >
+          <div class="sections mt-5">
+            <div class="section" id="section-1">
+              <div class="row">
+                <div class="col">
+                  <div class="row mentxt">
+                    <h1 class="tiltCard">Violência</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Consequuntur quos beatae sit rerum id iusto debitis sed
+                      eos voluptatum est, quasi dolor laudantium voluptas
+                      mollitia nihil, necessitatibus veniam distinctio
+                      assumenda? Lorem ipsum, dolor sit amet consectetur
+                      adipisicing elit. Soluta fugiat cum debitis at, laudantium
+                      amet ipsam! Accusamus minima, quidem officiis recusandae
+                      ut laudantium minus, vitae, voluptatem beatae quo hic
+                      porro. Lorem ipsum dolor, sit amet consectetur adipisicing
+                      elit. Repellendus doloremque illum libero voluptatum odio
+                      est. Error cum non numquam sunt ad praesentium eligendi
+                      consequatur dolorem! Doloribus tenetur optio sint quam?
+                    </p>
+                    <a href="/Violencia"
+                      ><button type="button" class="btn btn-danger">
+                        Acessar
+                      </button></a
+                    >
+                  </div>
                 </div>
-                <br /><br />
+                <div class="col-5 MenImgDsk">
+                  <img
+                    src="assets/images/stop-violence.png"
+                    alt=""
+                    height="230px"
+                    width="230px"
+                  />
+                </div>
               </div>
             </div>
-          </div>
-          <br /><br />
-          <div class="progress">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              aria-label="Example with label"
-              style="width: 90%"
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
 
-          <br />
-          <p>
-            <a
-              class="btn btn-primary"
-              data-bs-toggle="collapse"
-              href="#multiCollapseExample1"
-              role="button"
-              aria-expanded="false"
-              aria-controls="multiCollapseExample1"
-              >Sobre a turma</a
-            >
-          </p>
-          <div class="row">
-            <div class="col">
-              <div class="collapse multi-collapse" id="multiCollapseExample1">
-                <div class="card card-body">
-                  <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                      <div class="card h-100">
-                        <img
-                          src="assets/images/pessoas/Patrik2.jpeg"
-                          class="card-img-top"
-                          alt="..."
-                          height="300px"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Patrik Américo</h5>
-                          <p class="card-text">
-                            Programador Júnior de altíssima patente. Também
-                            conhecido como Lobão.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <img
-                          src="assets/images/pessoas/gladson.jpeg"
-                          class="card-img-top"
-                          alt="..."
-                          height="300px"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Gleydson Barbosa</h5>
-                          <p class="card-text">
-                            Autoproclamou-se vice-líder sem o aval do povo.
-                            Providenciou um ônibus e ganhou aprovação popular. O
-                            alívio cômico da turma.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <img
-                          src="assets/images/pessoas/Pablo.jpeg"
-                          class="card-img-top"
-                          alt="..."
-                          height="300px"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Pablo Meneses</h5>
-                          <p class="card-text">
-                            Envolveu-se com algumas polêmicas, mas sempre
-                            lembrado pela sua capacidade inequívoca de
-                            atrapalhar as aulas da Dayse.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <img
-                          src="assets/images/pessoas/DaviLucas.jpeg"
-                          class="card-img-top"
-                          alt="..."
-                          height="300px"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Davi Lucas</h5>
-                          <p class="card-text">
-                            Inventor do Wireshark. Representante máximo da
-                            turma. Polímata e apicultor. Pra que mais?
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <img
-                          src="assets/images/pessoas/Caue.jpeg"
-                          class="card-img-top"
-                          alt="..."
-                          height="300px"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Cauê Pacheco</h5>
-                          <p class="card-text">
-                            Discreto, porém sempre atuante. Articulador perigoso
-                            envolvido com a Câmara de Vereadores de Fortaleza.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <img
-                          src="assets/images/pessoas/Roney.jpeg"
-                          class="card-img-top"
-                          alt="..."
-                          height="300px"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Roney Davi</h5>
-                          <p class="card-text">
-                            Torcedor orgulhoso do Vasco e pior inimigo do
-                            sedentarismo: alguns o chamam de Dogão.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="card h-100">
-                        <img
-                          src="assets/images/pessoas/Vito.jpeg"
-                          class="card-img-top"
-                          alt="..."
-                          height="300px"
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Vitor Mariano</h5>
-                          <p class="card-text">
-                            1.90 e tende ao infinito. É jogador de basquete (só
-                            precisa de uma mão), empresário (fármacos ilegais) e
-                            dançarino (as melhores coreografias do tiktok).
-                          </p>
-                        </div>
-                      </div>
+            <div class="sections mt-5">
+              <div class="section" id="section-1">
+                <div class="row">
+                  <div class="col-5 MenImgDsk">
+                    <img
+                      src="assets/images/heartbeat.png"
+                      alt=""
+                      height="230px"
+                      width="230px"
+                    />
+                  </div>
+                  <div class="col">
+                    <div class="row mentxt">
+                      <h1 class="tiltCard">Saúde</h1>
+                      <p>
+                        Informe-se sobre as orientações da OMS para interromper
+                        o comportamento sedentário em um texto guiado e
+                        ilustrado:
+                        <b>O que é saúde?</b> Como saber se sou saudável? O que
+                        é um estilo de vida sedentário? Por que não consigo
+                        permanecer praticando um exercício por muito tempo?
+                        <b>Como interromper o comportamento sedentário?</b>
+                      </p>
+                      <a href="/Saude"
+                        ><button type="button" class="btn btn-info">
+                          Acessar
+                        </button></a
+                      >
                     </div>
                   </div>
+                </div>
+              </div>
 
-                  <br />
+              <!-- A partir daqui, botao Sobre a turma -->
 
-                  <img src="assets/images/turma.jpeg" alt="" />
-                  <br />
-                  Foto tirada em abril de 2022, no Laboratório de Informática do
-                  Campus.
+              <p>
+                <a
+                  class="btn btn-primary"
+                  data-bs-toggle="collapse"
+                  href="#multiCollapseExample1"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample1"
+                  >Sobre a turma</a
+                >
+              </p>
+              <div class="row">
+                <div class="col">
+                  <div
+                    class="collapse multi-collapse"
+                    id="multiCollapseExample1"
+                  >
+                    <div class="card card-body">
+                      <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img
+                              src="assets/images/pessoas/Patrik2.jpeg"
+                              class="card-img-top"
+                              alt="..."
+                              height="300px"
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Patrik Américo</h5>
+                              <p class="card-text">
+                                Programador Júnior de altíssima patente. Também
+                                conhecido como Lobão.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img
+                              src="assets/images/pessoas/gladson.jpeg"
+                              class="card-img-top"
+                              alt="..."
+                              height="300px"
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Gleydson Barbosa</h5>
+                              <p class="card-text">
+                                Autoproclamou-se vice-líder sem o aval do povo.
+                                Providenciou um ônibus e ganhou aprovação
+                                popular. O alívio cômico da turma.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img
+                              src="assets/images/pessoas/Pablo.jpeg"
+                              class="card-img-top"
+                              alt="..."
+                              height="300px"
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Pablo Meneses</h5>
+                              <p class="card-text">
+                                Envolveu-se com algumas polêmicas, mas sempre
+                                lembrado pela sua capacidade inequívoca de
+                                atrapalhar as aulas da Dayse.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img
+                              src="assets/images/pessoas/DaviLucas.jpeg"
+                              class="card-img-top"
+                              alt="..."
+                              height="300px"
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Davi Lucas</h5>
+                              <p class="card-text">
+                                Inventor do Wireshark. Representante máximo da
+                                turma. Polímata e apicultor. Pra que mais?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img
+                              src="assets/images/pessoas/Caue.jpeg"
+                              class="card-img-top"
+                              alt="..."
+                              height="300px"
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Cauê Pacheco</h5>
+                              <p class="card-text">
+                                Discreto, porém sempre atuante. Articulador
+                                perigoso envolvido com a Câmara de Vereadores de
+                                Fortaleza.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img
+                              src="assets/images/pessoas/Roney.jpeg"
+                              class="card-img-top"
+                              alt="..."
+                              height="300px"
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Roney Davi</h5>
+                              <p class="card-text">
+                                Torcedor orgulhoso do Vasco e pior inimigo do
+                                sedentarismo: alguns o chamam de Dogão.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img
+                              src="assets/images/pessoas/Vito.jpeg"
+                              class="card-img-top"
+                              alt="..."
+                              height="300px"
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Vitor Mariano</h5>
+                              <p class="card-text">
+                                1.90 e tende ao infinito. É jogador de basquete
+                                (só precisa de uma mão), empresário (fármacos
+                                ilegais) e dançarino (as melhores coreografias
+                                do tiktok).
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <img src="assets/images/turma.jpeg" alt="" />
+
+                      Foto tirada em abril de 2022, no Laboratório de
+                      Informática do Campus.
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <br /><br /><br />
     </div>
-    <%- include('includes/bottomBar') %> 
+    <%- include('includes/bottomBar') %>
   </body>
 </html>
