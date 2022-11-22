@@ -6,3 +6,5 @@ import "./assets/css/style.css";
 import "bootstrap";
 
 import "../src/modules/MenuDrop";
+import "../src/modules/TextDrop";
+
