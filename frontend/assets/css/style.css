@@ -455,3 +455,99 @@ a.btua{
 .justcent2 {
   margin-left: 18%;
 }
+
+
+/*Parte css de saude_Roney*/
+#gif {
+  height: 208px;
+  width: 201px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#MENU{
+  background-color: rgb(246, 245, 245);
+  height: auto;
+  width: 100%;
+  padding: 40px;
+  margin-top: 100px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 4%;
+
+}
+
+#menuTempo {
+  margin-top: 4%;
+  color: rgb(148, 153, 150);
+  font-size: 1.2cm;
+}
+
+#tempo {
+  margin-top: 2%;
+  color: rgb(9, 207, 69);
+  font-size: 1.3cm;
+}
+
+#treino {
+  margin-top: 1%;
+}
+#dropItens{
+  background-color: rgb(246, 245, 245);
+  margin-top: 10px;
+  border-radius: 8%;
+  padding: 10%;
+}
+.UserTemp{  
+  width: 100%;
+}
+.open{
+  animation-name: open;
+  animation-duration: 1s;
+}
+@keyframes open {
+  0%{
+      opacity: 0%;
+  }
+  50%{
+      opacity: 50%;
+  }
+  100%{
+      
+      opacity: 100%;
+  }
+}
+.close{
+  animation-name: close;
+  animation-duration: 1.5s;
+}
+@keyframes close {
+  0%{
+      opacity: 100%;
+  }
+  50%{
+      opacity: 50%;
+  }
+  100%{
+      opacity: 0%;
+  }
+}
+#Execucao{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+
+}
+#Titulo{
+  margin-top: 15px;
+  font-size: 0.9cm;
+  color: black;
+}
+.centro{
+  text-align: center;
+}
+#btniniciar{
+  margin-bottom: 1%;
+}

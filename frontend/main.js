@@ -7,4 +7,6 @@ import "bootstrap";
 
 import "../src/modules/MenuDrop";
 import "../src/modules/TextDrop";
+import "../src/modules/Exercicios";
+
 
