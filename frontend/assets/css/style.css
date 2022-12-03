@@ -72,7 +72,7 @@
   display: none;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 770px) {
   .botoes,
   .MenImgDsk,
   .graficDesk {
@@ -99,6 +99,37 @@
   footer{
     flex-direction: column;
   }
+  .tabela-composteira{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+  .tabela-composteira img{
+    width: 85% !important;
+  }
+}
+
+@media (max-width: 485px) {
+  .carousel-caption {
+    padding: 0;
+  }
+  .carousel-caption h5 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .carousel-caption p {
+    font-size: 0.65em;
+  }
+}
+
+.carousel-item{
+  max-height: 520px;
+}
+
+.carousel-item .fundo{
+  min-height: 520px;
+  background-color: black;
+  opacity: 0.5;
 }
 
 .men {
@@ -267,4 +298,17 @@ p {
 
 .sobre:hover{
 color: white;
+}
+
+.tabela-composteira{
+  display: flex;
+  height: 300px;
+  gap: 1%;
+  /* flex-wrap: nowrap; */
+}
+
+.tabela-composteira img{
+  width: 50%;
+  border-radius: 10%;
+
 }
