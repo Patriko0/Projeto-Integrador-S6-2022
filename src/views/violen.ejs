@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projeto Integrador 2022</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violência contra às mulheres</title>
     <link rel="icon" type="image/x-icon" href="assets/images/logo_if.png" />
     <script src="../assets/js/bundle.js"></script>
-  </head>
 
-  <body class="bg-light">
-    <%- include('includes/navbar') %> 
-    <%- include('includes/hamburgerButton') %> 
+</head>
 
-    <div class="container bg-light text-center mt-5">
-      <h1>Violência</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius odio
-        iusto? Atque reprehenderit cumque praesentium non eum? Fuga rem
-        blanditiis dolores recusandae, magnam illo officiis suscipit ut facilis
-        doloribus aliquid, doloremque culpa laudantium impedit sunt enim
-        necessitatibus! Consequatur, tenetur facere nobis cupiditate illo
-        recusandae corrupti rerum dolore dicta id eveniet excepturi quas
-        molestiae, sapiente eius a quod pariatur praesentium. Eligendi molestiae
-        quasi aliquid saepe nulla eos soluta dignissimos impedit corporis autem
-        nam beatae, tempore voluptatibus consectetur amet accusamus sint
-        pariatur sequi magnam laborum. Iure recusandae ullam voluptas deleniti
-        sed praesentium, odio quo impedit corporis magni architecto repudiandae
-        facilis ipsam?
-      </p>
+<body class="violen">
+    <%- include('includes/violenHeader.ejs')%>
+
+    <div class="container violen-container">
+
+        <a href="/Glossario" target="_blank">
+            <div class="topic">
+                <div class="imgsd1"></div>
+                <p class="parph">Glossário</p>
+            </div>
+        </a>
+
+        <a href="/Apoio" target="_blank">
+            <div class="topic">
+                <div class="imgsd2"></div>
+                <p class="parph">Rede de Apoio</p>
+            </div>
+        </a>
+
+        <a href="/Infografico" target="_blank">
+            <div class="topic">
+                <div class="imgsd3"></div>
+                <p class="parph">Infográfico</p>
+            </div>
+        </a>
     </div>
 
-    <br />
+    
+</body>
 
-    <span class="placeholder col-12 bg-danger"></span>
-
-    <br />
-
-    <%- include('includes/bottomBar') %> 
-  </body>
 </html>

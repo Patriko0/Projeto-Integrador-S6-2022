@@ -1,3 +1,9 @@
+:root{
+  --color: #ECC5FB
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@300;400;500;700;800&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -311,4 +317,141 @@ color: white;
   width: 50%;
   border-radius: 10%;
 
+}
+
+.violen{
+  background-color: var(--color) !important;
+}
+
+.violen-header{
+  background-color: #AF7AB3;
+}
+
+.violen-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: #ECC5FB;
+}
+
+.glo-container {
+  width: 70%;
+  margin: auto;
+  background-color: #ECC5FB;
+}
+
+.padds {
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.4rem !important;
+}
+
+.topic {
+  text-align: center;
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.simbicon {
+  width: 62px;
+  height: 75px;
+  margin-right: 0.4cm;
+}
+
+
+
+.imgsd1 {
+  background-image: url(../../../public/assets/images/glossario.jpg);
+  background-size: 150%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-position-y: none;
+  background-position-x: -60px;
+}
+
+.imgsd2 {
+  background-image: url(../../../public/assets/images/redes\ de\ apoio.jpg);
+  background-size: 100%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-position-y: none;
+  background-position-x: none;
+}
+
+.imgsd3 {
+  background-image: url(../../../public/assets/images/grafico.jpg);
+  background-size: 150%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-position-y: none;
+  background-position-x: -60px;
+}
+
+.parph {
+  font-family: 'Arial'!important;
+  font-size: x-large !important;
+  color: #985eac !important;
+  font-weight: 600 !important;
+}
+
+.hddrr {
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 1.25rem !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+.hddrr1 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: large !important;
+  color: #ffffff !important;
+  font-weight: 300 !important;
+  margin-right: 0.3cm;
+}
+
+.btnn{
+  display: flex;
+  position: relative;
+  width: 150px;
+  height: 55px;
+  border-radius: 7px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+
+a.btua{
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: 160px;
+  height: 52px;
+  background: #985eac;
+  text-align: center;
+  line-height: 52px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 0.5cm;
+  font-weight: 300 !important;
+  transition: background-color 1s ease;
+}
+
+.btua:hover{
+  color: #ffffff;
+  background: #9d0808 ;
+}
+
+
+.justcent {
+  margin-left: 22%;
+}
+
+
+.justcent2 {
+  margin-left: 18%;
 }
