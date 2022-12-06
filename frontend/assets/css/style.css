@@ -321,6 +321,7 @@ color: white;
 
 .violen{
   background-color: var(--color) !important;
+  line-height: normal !important;
 }
 
 .violen-header{
@@ -454,6 +455,28 @@ a.btua{
 
 .justcent2 {
   margin-left: 18%;
+}
+
+.dropdown{
+  background-color: #AF7AB3 !important;
+  color: #ffffff !important;
+}
+
+.btn-violen {
+  background-color: #AF7AB3 !important;
+  border: none !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 17px !important;
+  font-weight: 100 !important;
+  color: #ffffff !important;
+}
+
+.dropdown-menu {
+  background-color: #AF7AB3 !important;
+}
+
+.dropdown-item {
+  color: #fff !important;
 }
 
 
