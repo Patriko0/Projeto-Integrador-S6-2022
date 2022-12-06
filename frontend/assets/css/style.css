@@ -10,6 +10,11 @@
   font-family: Arial;
 }
 
+.img{
+  min-width: 55%;
+  max-width: 65%;
+}
+
 .titul {
   max-width: 25rem;
   color: white;
@@ -113,6 +118,10 @@
   .tabela-composteira img{
     width: 85% !important;
   }
+  .img{
+  min-width: 75%;
+  max-width: 100%;
+}
 }
 
 @media (max-width: 485px) {
@@ -337,6 +346,9 @@ color: white;
 
 .glo-container {
   width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: auto;
   background-color: #ECC5FB;
 }
